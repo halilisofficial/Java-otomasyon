@@ -5,6 +5,7 @@
  */
 package satranckulubu;
 
+import java.awt.HeadlessException;
 import java.io.File;
 import java.io.FileOutputStream;
 import java.util.Scanner;
@@ -18,6 +19,9 @@ import javax.swing.JOptionPane;
 public class EtkinlikEkle extends javax.swing.JFrame {
 private String yol;//dosya konumu verir
 ImageIcon ic = new ImageIcon("image\\at.jpg");  
+
+    public EtkinlikEkle() {
+    }
 
     /**
      * Creates new form EtkinlikEkle
