@@ -1,3 +1,5 @@
 # Java-otomasyon
-Dosya işlemleri için yazılmıştır.
-not: henüz bitmedi
+Dosya işlemleri
+OOP özellikleri içerir
+arayüz admin girişi(kullanıcıadı,şifre) (admin,admin) kullanıcı girişi için kayıt ol tuşu bulunmakta
+
