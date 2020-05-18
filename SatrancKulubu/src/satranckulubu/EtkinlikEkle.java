@@ -1,8 +1,4 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package satranckulubu;
 
 import java.awt.HeadlessException;
@@ -12,20 +8,10 @@ import java.util.Scanner;
 import javax.swing.ImageIcon;
 import javax.swing.JOptionPane;
 
-/**
- *
- * @author casper
- */
 public class EtkinlikEkle extends javax.swing.JFrame {
 private String yol;//dosya konumu verir
 ImageIcon ic = new ImageIcon("image\\at.jpg");  
 
-    public EtkinlikEkle() {
-    }
-
-    /**
-     * Creates new form EtkinlikEkle
-     */
     public EtkinlikEkle(String yol) {
         setIconImage(ic.getImage());
         this.yol=yol;
